@@ -1,0 +1,145 @@
+.BlurBackground {
+  width: 83%;
+  height: 100%;
+  z-index: 8;
+  background-color: hsl(0, 0%, 0%, 50%);
+  position: absolute;
+}
+
+.Menu {
+  width: 17%;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 5px 0 5px -8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  z-index: 8;
+  padding: 20px 0 0 0;
+}
+
+.MenuContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.NameContainer {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Name {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Name h4 {
+  color: #666666;
+  font-weight: 400;
+}
+
+.Line {
+  background-color: rgb(214, 214, 214);
+  width: 100%;
+  height: 1px;
+  margin-bottom: 25px;
+}
+
+.Options {
+  padding-left: 30px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Options button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #333333;
+  font-size: 11px;
+  font-weight: 200;
+}
+
+.Options a {
+  text-decoration: none;
+}
+
+.Options button:hover {
+  cursor: url("../Icons/CursorSelect.png"), auto;
+}
+
+.Options button img {
+  margin-right: 15px;
+}
+
+.UserContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.User {
+  border-radius: 10px;
+  width: 80%;
+  height: 120px;
+  background-color: #f8f9fa;
+  position: absolute;
+  bottom: 30px;
+  border: 1px solid #e5e5e5;
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.UserPFP {
+  border-radius: 8px;
+  width: 38px;
+  height: 38px;
+  background-color: #0066cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.UserPFP img {
+  width: 24px;
+  height: 24px;
+}
+
+.LogIn {
+  border-radius: 8px;
+  width: 100%;
+  height: 50%;
+  font-size: 17px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #0066cc;
+}
+
+.MoreUserSettings {
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.NameAndEmail {
+  display: flex;
+  flex-direction: column;
+}
+
+.NameAndEmail h4 {
+  color: #333333;
+}
+
+.NameAndEmail h5 {
+  color: #666666;
+}
